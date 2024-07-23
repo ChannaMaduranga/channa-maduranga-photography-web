@@ -13,10 +13,12 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className='bg-slate-300'>
        <Navbar/>
-       <Home/>
-       <Footer/>
+       
+        <Home/>
+        <Footer/>
+     
     </div>
       
     </>
