@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { IoClose } from "react-icons/io5";
 
 const recentWorks = [
-  { id: 1, imgSrc: '../../src/assets/wedding.jpg' },
-  { id: 2, imgSrc: '../../src/assets/event.jpg' },
-  { id: 3, imgSrc: '../../src/assets/1.jpg' },
-  { id: 4, imgSrc: '../../src/assets/7.jpg' },
-  { id: 5, imgSrc: '../../src/assets/8.jpg' },
-  { id: 6, imgSrc: '../../src/assets/00.jpg' },
-  { id: 7, imgSrc: '../../src/assets/2.jpg' },
-  { id: 8, imgSrc: '../../src/assets/1.jpg' },
-  { id: 9, imgSrc: '../../src/assets/10.jpg' },
+  { id: 1, imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg' },
+  { id: 2, imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
+  { id: 3, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
+  { id: 4, imgSrc: '../../channa-maduranga-photography-web/src/assets/7.jpg' },
+  { id: 5, imgSrc: '../../channa-maduranga-photography-web/src/assets/8.jpg' },
+  { id: 6, imgSrc: '../../channa-maduranga-photography-web/src/assets/00.jpg' },
+  { id: 7, imgSrc: '../../channa-maduranga-photography-web/src/assets/2.jpg' },
+  { id: 8, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
+  { id: 9, imgSrc: '../../channa-maduranga-photography-web/src/assets/10.jpg' },
 ];
 
 const RecentWork = () => {

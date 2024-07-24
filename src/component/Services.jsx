@@ -6,10 +6,10 @@ import "aos/dist/aos.css";
 
 
 const services = [
-  { name: 'WEDDINGS', imgSrc: '../../src/assets/wedding.jpg' },
-  { name: 'PRE SHOOT', imgSrc: '../../src/assets/preshoot.jpg' },
-  { name: 'GRADUATION', imgSrc: '../../src/assets/graduation.jpg' },
-  { name: 'EVENTS', imgSrc: '../../src/assets/event.jpg' },
+  { name: 'WEDDINGS', imgSrc: "../../channa-maduranga-photography-web/src/assets/wedding.jpg" },
+  { name: 'PRE SHOOT', imgSrc: '../../channa-maduranga-photography-web/src/assets/preshoot.jpg' },
+  { name: 'GRADUATION', imgSrc: '../../channa-maduranga-photography-web/src/assets/graduation.jpg' },
+  { name: 'EVENTS', imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
 ];
 
 const Services = () => {
@@ -31,7 +31,7 @@ const Services = () => {
           <div key={index} className="relative h-[200px] w-[180px] group overflow-hidden " >
             <img
               src={service.imgSrc}
-              alt={service.name}
+              
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:bg-opacity-0">
