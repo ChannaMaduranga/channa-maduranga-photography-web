@@ -2,11 +2,11 @@ import React, { useState,useEffect } from 'react';
 import AOS from "aos"; /* for animation  aos package*/
 import "aos/dist/aos.css";
 
-
+//import wedding from "../assets/wedding.jpg";
 
 
 const services = [
-  { name: 'WEDDINGS', imgSrc: "../../channa-maduranga-photography-web/src/assets/wedding.jpg" },
+  { name: 'WEDDINGS', imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg'  },
   { name: 'PRE SHOOT', imgSrc: '../../channa-maduranga-photography-web/src/assets/preshoot.jpg' },
   { name: 'GRADUATION', imgSrc: '../../channa-maduranga-photography-web/src/assets/graduation.jpg' },
   { name: 'EVENTS', imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
