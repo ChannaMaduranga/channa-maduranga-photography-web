@@ -37,9 +37,9 @@ const albums = [
 function Album() {
   const [album,setAlbum]= useState(albums);
   return (
-    <div>
-        <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-4xl">Albums</h2>
-        <div className='w-[80%] m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3'>
+    <div id="album">
+        <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-4xl "  data-aos="fade-right">Albums</h2>
+        <div className='w-[80%] m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-left">
           {album.map((albums,index)=>(
           <div key = {index} className='md:left-0   md:m-4 my-8'>
               <div className='w-full  '>

@@ -12,6 +12,8 @@ import SlideShow from './SlideShow'
 import cover1 from '../assets/cover1.png';
 import cover2 from '../assets/1.jpg';
 import cover3 from "../assets/cover2.jpg";
+import cover4 from "../assets/00.jpg";
+// import cover5 from "../assets/dinna.jpg";
 
 
 
@@ -19,16 +21,16 @@ function Home() {
 
 
     const slideImages = [
-        cover1,cover2,cover3    
+        cover1,cover2,cover3,cover4  
          ];
 
 
   return (
-    <div>
-        <div className=' relative md:h-[350px] w-full  justify-center  '>
+    <div id="home">
+        <div className=' relative  md:h-[350px] w-screen  justify-center container '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <SlideShow slideImages={slideImages} className=" h-full w-full object-cover"/> 
-            <div className=' absolute inset-0  bg-black opacity-25 '>
+            <div className=' absolute inset-0  bg-black opacity-25 w-screen'>
                 <div className='absolute top-[40%] left-[70%] md:top-[30%] text-white'>
                     
                     <div className='w-[80%] h-[20%]'>
@@ -44,7 +46,7 @@ function Home() {
         <div className='md:w-[80%] md:justify-center md:items-center md:m-auto bg-white'>
             <Services/>
             <RecentWork/>
-            <AboutMe/>
+            <AboutMe datadata-aos="fade-right"/>
             <Album/>
             <Contact/>
         </div>

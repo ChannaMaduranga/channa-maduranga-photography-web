@@ -31,15 +31,15 @@ const RecentWork = () => {
   };
 
   return (
-    <div className="py-4">
-      <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-6">Recent Works</h2>
-      <div className="container mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-1 ">
+    <div className="py-4 lg:p-8">
+      <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-6 lg:pb-16 " data-aos="fade-right">Recent Works</h2>
+      <div className="container mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1 ">
         {recentWorks.map((work) => (
           <div key={work.id} className="relative ">
             <img
               src={work.imgSrc}
               onClick={() => handleImageClick(work.imgSrc)}
-              className="w-full h-full object-cover rounded-md cursor-pointer"
+              className="w-full h-full object-cover rounded-md cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-110"
             />
           </div>
         ))}

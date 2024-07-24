@@ -23,7 +23,7 @@ const Services = () => {
 
 
   return (
-    <div className="flex flex-col items-center py-8" data-aos="fade-up">
+    <div className="flex flex-col items-center py-8 lg:p-16" data-aos="fade-up" id="service">
       <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold mb-6" >OUR SERVICES</h2>
       
       <div className="grid grid-cols-2 gap-2 m-4 md:flex " >
