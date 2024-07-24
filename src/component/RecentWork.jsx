@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoClose } from "react-icons/io5";
+import testingImg from '../../src/assets/wedding.jpg' 
 
 // const recentWorks = [
 //   { id: 1, imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg' },
@@ -13,7 +14,7 @@ import { IoClose } from "react-icons/io5";
 //   { id: 9, imgSrc: '../../channa-maduranga-photography-web/src/assets/10.jpg' },
 // ];
 const recentWorks = [
-  { id: 1, imgSrc: '../../src/assets/wedding.jpg' },
+  { id: 1, imgSrc: testingImg},
   // { id: 2, imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
   // { id: 3, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
   // { id: 4, imgSrc: '../../channa-maduranga-photography-web/src/assets/7.jpg' },
