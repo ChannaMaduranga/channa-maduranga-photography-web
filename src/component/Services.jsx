@@ -2,15 +2,27 @@ import React, { useState,useEffect } from 'react';
 import AOS from "aos"; /* for animation  aos package*/
 import "aos/dist/aos.css";
 
-//import wedding from "../assets/wedding.jpg";
+import wedding from "../assets/wedding.jpg";
+import preshoot from "../assets/preshoot.jpg";
+import graduation from "../assets/graduation.jpg";
+import event from "../assets/wedding.jpg";
+
+
+// const services = [
+//   { name: 'WEDDINGS', imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg' },
+//   { name: 'PRE SHOOT', imgSrc: '../../channa-maduranga-photography-web/src/assets/preshoot.jpg' },
+//   { name: 'GRADUATION', imgSrc: '../../channa-maduranga-photography-web/src/assets/graduation.jpg' },
+//   { name: 'EVENTS', imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
+// ];
 
 
 const services = [
-  { name: 'WEDDINGS', imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg'  },
-  { name: 'PRE SHOOT', imgSrc: '../../channa-maduranga-photography-web/src/assets/preshoot.jpg' },
-  { name: 'GRADUATION', imgSrc: '../../channa-maduranga-photography-web/src/assets/graduation.jpg' },
-  { name: 'EVENTS', imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
+  { name: 'WEDDINGS', imgSrc: wedding },
+  { name: 'PRE SHOOT', imgSrc: preshoot },
+  { name: 'GRADUATION', imgSrc: graduation },
+  { name: 'EVENTS', imgSrc: event },
 ];
+
 
 const Services = () => {
 
