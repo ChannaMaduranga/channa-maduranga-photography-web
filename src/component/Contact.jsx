@@ -45,23 +45,23 @@ const [contactForm, setContactForm] = useState({
              <form className='contact__form' onSubmit={sendEmail}>
                 <div className="mb-4 flex gap-4 m-8 border-b">
                     <FiUser />
-                   <input type="text" placeholder='Name' className='outline-none ' name='name'   />
+                   <input type="text" placeholder='Name' className='outline-none ' name='name' required  />
                 </div>
                 <div className="mb-4 flex gap-4 m-8 border-b">
                     <MdOutlineEmail />
-                   <input type="email" placeholder='Email' className='outline-none ' name="email"  />
+                   <input type="email" placeholder='Email' className='outline-none ' name="email" required />
                 </div>
                 <div className="mb-4 flex gap-4 m-8 border-b">
                     <FiPhone />
-                   <input type="text" placeholder='Mobile No' className='outline-none ' name="mobileNo"   />
+                   <input type="text" placeholder='Mobile No' className='outline-none ' name="mobileNo"  required  />
                 </div>
                 <div className="mb-4 flex gap-4 m-8 border-b">
                     <AiOutlineExclamationCircle />
-                   <input type="text" placeholder='Subject' className='outline-none ' name="subject" />
+                   <input type="text" placeholder='Subject' className='outline-none ' name="subject" required  />
                 </div>
                 <div className="mb-4 flex gap-4 m-8 border-b">
                     <FaRegPenToSquare />
-                   <input type="text" placeholder='How can we help you?'  className='outline-none '  name="message"  />
+                   <input type="text" placeholder='How can we help you?'  className='outline-none '  name="message" required  />
                 </div>
                 <div className='    flex  mt-8 float-left m-8'>
                     <button type="submit"  className='w-[90px] h-[35px] bg-black rounded-3xl font-semibold text-white hover:bg-white hover:text-black hover:border-2 hover:border-black flex items-center gap-1 justify-center'  >Send <IoSend/></button>
