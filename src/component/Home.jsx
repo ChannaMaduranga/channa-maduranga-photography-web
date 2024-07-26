@@ -27,11 +27,11 @@ function Home() {
 
   return (
     <div id="home">
-        <div className=' relative  md:h-[350px] w-screen  justify-center container pt-16 md:pt-8'>
+        <div className=' relative  md:h-[350px] w-screen  justify-center container '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <SlideShow slideImages={slideImages} className=" h-full w-full object-cover"/> 
             <div className=' absolute inset-0  bg-black opacity-25 w-screen'>
-                <div className='absolute top-[50%] left-[70%] md:top-[30%] text-white'>
+                <div className='absolute top-[40%] left-[70%] md:top-[30%] text-white'>
                     
                     <div className='w-[80%] h-[20%]'>
                         <img src={logo} alt="" />
