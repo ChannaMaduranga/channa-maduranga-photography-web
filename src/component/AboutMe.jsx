@@ -3,11 +3,11 @@ import AboutMeIMG from '../assets/AboutMe.jpg'
 
 function AboutMe() {
   return (
-    <div className='mt-8' id="aboutUs">
+    <div className='mt-8' id="aboutUs" data-aos="fade-up">
         <div>
-            <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-8" data-aos="fade-left">About Me</h2>
+            <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-8" data-aos="fade-up">About Me</h2>
         </div>
-        <div className='w-full lg:flex h-auto bg-black opacity-100 p-16 md:p8 pt-16  ' data-aos="fade-right">
+        <div className=' lg:flex h-auto bg-black opacity-100 p-16 md:p-8 pt-16  ' data-aos="">
             <div className='lg:w-2/4 '>
                 <div className='relative md:w-[35vh] w-[25vh] h-[25vh]  md:h-[35vh] justify-center items-center md:m-auto m-auto  container '>
                     <img src={AboutMeIMG} alt=""  className='w-full h-full object-cover  rounded-md transform transition-transform duration-300 ease-in-out hover:scale-110'/>
