@@ -23,7 +23,7 @@ function Navbar() {
   
   return (
     <>
-      <nav className="bg-black text-white py-4  md:py-2 z-50  w-full  fixed  ">
+      <nav className="bg-black text-white py-4  md:py-2 z-50  w-full  sticky  ">
         <div className="  flex justify-between items-center px-2  ">
           <div className="w-[18%] h-[2%] sm:w-[12%] lg:w-[8%] place-items-start left-1">
             <img src={logo} alt="Logo" />

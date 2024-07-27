@@ -22,11 +22,11 @@ function App() {
     <>
     <div className='bg-slate-300'>
        <Navbar className=""/>
-       
+       </div> 
         <Home/>
         <Footer/>
      
-    </div>
+    
       
     </>
   )

@@ -3,7 +3,7 @@ import AboutMeIMG from '../assets/AboutMe.jpg'
 
 function AboutMe() {
   return (
-    <div className='mt-8' id="aboutUs" data-aos="fade-up">
+    <div className='mt-8 lg:pt-16' id="aboutUs" data-aos="fade-up">
         <div>
             <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-8" data-aos="fade-up">About Me</h2>
         </div>

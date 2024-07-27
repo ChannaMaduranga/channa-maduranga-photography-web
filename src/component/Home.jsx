@@ -29,7 +29,9 @@ function Home() {
     <div id="home">
         <div className=' relative  md:h-[350px] w-screen  justify-center container '>
             {/* <SlideShow slideImages={slideImages}/> */}
-            <SlideShow slideImages={slideImages} className=" h-full w-full object-cover"/> 
+            <div className='mt-[] '>
+                <SlideShow slideImages={slideImages} className=" h-full w-full object-cover "/> 
+            </div>
             <div className=' absolute inset-0  bg-black opacity-25 w-screen'>
                 <div className='absolute top-[40%] left-[70%] md:top-[30%] text-white'>
                     
