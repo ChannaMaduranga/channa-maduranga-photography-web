@@ -44,7 +44,7 @@ function Contact() {
   };
 
   return (
-    <div className='md:mt-16 mt-8' id="contact">
+    <div className='md:mt-16 mt-8 mb-8' id="contact">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6" data-aos="fade-up">Contact Us</h2>
       <div className='bg-black w-full h-full m-auto flex flex-col lg:flex-row justify-center items-center' data-aos="fade-up">
         <div className='bg-white rounded-md mx-8 m-8' data-aos="fade-up">

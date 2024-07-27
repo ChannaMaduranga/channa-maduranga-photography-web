@@ -1,11 +1,14 @@
 import { useState,useEffect } from 'react'
 import AOS from "aos"; /* for animation  aos package*/
 import "aos/dist/aos.css";
+import { BrowserRouter,Routes, Route} from 'react-router-dom';
+
 
 import './App.css'
 import Navbar from '../src/component/Navbar/Navbar'
 import Home from './component/Home'
 import Footer from './component/Footer'
+import MoreAlbum from './component/MoreAlbum';
 
 
 
@@ -21,9 +24,19 @@ function App() {
   return (
     <>
     <div className='bg-slate-300'>
-       <Navbar className=""/>
-       </div> 
-        <Home/>
+       <Navbar/>
+    </div>
+
+    <BrowserRouter basename="/channa-maduranga-photography-web/">
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/Album" Component={MoreAlbum}/>
+        
+        
+      </Routes>
+    </BrowserRouter>
+  
+        
         <Footer/>
      
     

@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import {Link } from 'react-router-dom';
 import img1 from '../assets/wedding.jpg';
 import img2 from '../assets/wedding2.jpg';
 import img3 from '../assets/wedding3.jpg';
@@ -32,10 +33,17 @@ const albums = [
   }
 ]
 
+
   
 
 function Album() {
+
+
+
+
   const [album,setAlbum]= useState(albums);
+
+
   return (
     <div id="album" className='lg:pt-16'>
         <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-4xl "  data-aos="fade-right">Albums</h2>
@@ -86,6 +94,11 @@ function Album() {
               </div>
           </div>
         ))}
+        </div>
+        <div className='flex justify-center mt-8'>
+         <Link to="/Album">
+          <button type="button" className='w-[135px] h-[35px] bg-white border-2 border-black rounded-lg font-semibold hover:bg-black hover:text-white hover:border-2 hover:border-white'  >View More</button>
+         </Link> 
         </div>
     </div>
   )

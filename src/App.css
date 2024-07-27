@@ -1,1 +1,25 @@
 *{font-family: "Poppins", sans-serif;}
+
+/* Add this to your global CSS file or a module CSS file */
+.underline-animate {
+    position: relative;
+    display: inline-block;
+    color: white; /* Adjust as needed */
+  }
+  
+  .underline-animate::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: white; /* Adjust to match your design */
+    width: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .underline-animate:hover::after {
+    width: 100%;
+  }
+  
+  
