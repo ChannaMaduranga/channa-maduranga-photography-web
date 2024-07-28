@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../../src/assets/LOGO.png';
 import { FiMenu, FiX } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ function Navbar() {
           </div>
           <ul className={`md:flex space-x-6 absolute md:static  bg-black justify-center  md:justify-end pr-8 md:pr-2 transition-all md:text-white duration-300 ease-in ${isOpen ? 'top-12 left-0 w-full opacity-100 pb-8' : 'top-[-500px] w-full left-0 '}`}>
             <li className="text-center m-auto md:text-left"><a href="" className="block py-2 md:py-0 px-4 md:px-0 "></a></li>
-            <li className="text-center md:text-left"><a href="/" className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Home</a></li><hr className='m-auto' />
+            <li className="text-center md:text-left"><Link to="/" ><a href="" className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Home</a></Link></li><hr className='m-auto' />
             
             <li className="text-center md:text-left"><a href="#album"  className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Album</a></li><hr />
             <li className="text-center md:text-left"><a href="#service" className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Service</a></li><hr />
