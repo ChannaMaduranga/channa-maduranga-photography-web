@@ -47,6 +47,7 @@ import E1 from '../assets/Engagment/16x24 Enlargment.jpg';
 import E2 from '../assets/Engagment/2.jpg';
 import E3 from '../assets/Engagment/9.jpg';
 import E4 from '../assets/Engagment/19.jpg';
+import ScrollToTop from './ScrollToTop';
 
 
 const albums = [
@@ -116,7 +117,8 @@ function MoreAlbum() {
 
   return (
     <div id="album" className='lg:pt-16 z-50'>
-        <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-4xl "  data-aos="fade-right">Albums</h2>
+      <ScrollToTop/>
+        <h2 className="text-2xl font-bold text-left pt-24 md:pt-16 md:3xl lg:text-4xl pl-[10%] md:pl-[11%] md:pb-8"  >Albums</h2>
         <div className='w-[80%] m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-right">
           {album.map((albums,index)=>(
           <div key = {index} className='md:left-0   md:m-4 my-8'>

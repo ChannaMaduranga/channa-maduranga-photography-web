@@ -1,46 +1,37 @@
 import React, { useState } from 'react';
 import { IoClose } from "react-icons/io5";
 
-import img1 from '../../src/assets/wedding.jpg'
-import img2 from '../../src/assets/event.jpg' 
-import img3 from '../../src/assets/1.jpg' 
-import img4 from '../../src/assets/7.jpg' 
-import img5 from '../../src/assets/8.jpg' 
-import img6 from '../../src/assets/00.jpg' 
-import img7 from '../../src/assets/2.jpg'  
-import img8 from '../../src/assets/1.jpg'
-import img9 from '../../src/assets/10.jpg'
+import img1 from '../../src/assets/wedding.jpg';
+import img2 from '../../src/assets/event.jpg';
+import img3 from '../../src/assets/1.jpg';
+import img4 from '../../src/assets/7.jpg';
+import img5 from '../../src/assets/8.jpg';
+import img6 from '../../src/assets/00.jpg';
+import img7 from '../../src/assets/2.jpg';
+import img8 from '../../src/assets/1.jpg';
+import img9 from '../../src/assets/10.jpg';
+import img10 from '../../src/assets/DSC01017.jpg';
+import img11 from '../../src/assets/27.jpg';
+import img12 from '../../src/assets/IMG_0430.jpg';
+import img13 from '../../src/assets/15.jpg';
+import img14 from '../../src/assets/18.jpg';
 
-// const recentWorks = [
-//   { id: 1, imgSrc: '../../channa-maduranga-photography-web/src/assets/wedding.jpg' },
-//   { id: 2, imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
-//   { id: 3, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
-//   { id: 4, imgSrc: '../../channa-maduranga-photography-web/src/assets/7.jpg' },
-//   { id: 5, imgSrc: '../../channa-maduranga-photography-web/src/assets/8.jpg' },
-//   { id: 6, imgSrc: '../../channa-maduranga-photography-web/src/assets/00.jpg' },
-//   { id: 7, imgSrc: '../../channa-maduranga-photography-web/src/assets/2.jpg' },
-//   { id: 8, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
-//   { id: 9, imgSrc: '../../channa-maduranga-photography-web/src/assets/10.jpg' },
-// ];
 const recentWorks = [
-  { id: 1, imgSrc: img1},
-  { id: 2, imgSrc: img2},
-  { id: 3, imgSrc: img3},
-  { id: 4, imgSrc: img4},
-  { id: 5, imgSrc: img5},
-  { id: 6, imgSrc: img6},
-  { id: 7, imgSrc: img7},
-  { id: 8, imgSrc: img8},
-  { id: 9, imgSrc: img9},
+  { id: 1, imgSrc: img1 },
+  { id: 2, imgSrc: img2 },
+  { id: 3, imgSrc: img3 },
+  { id: 4, imgSrc: img4 },
+  { id: 5, imgSrc: img5 },
+  { id: 6, imgSrc: img6 },
+  { id: 7, imgSrc: img7 },
+  { id: 8, imgSrc: img8 },
+  { id: 9, imgSrc: img9 },
+  { id: 10, imgSrc: img10},
+  { id: 11, imgSrc: img11},
+  { id: 12, imgSrc: img12},
+  { id: 13, imgSrc: img13},
+  { id: 14, imgSrc: img14}
 
-  // { id: 2, imgSrc: '../../channa-maduranga-photography-web/src/assets/event.jpg' },
-  // { id: 3, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
-  // { id: 4, imgSrc: '../../channa-maduranga-photography-web/src/assets/7.jpg' },
-  // { id: 5, imgSrc: '../../channa-maduranga-photography-web/src/assets/8.jpg' },
-  // { id: 6, imgSrc: '../../channa-maduranga-photography-web/src/assets/00.jpg' },
-  // { id: 7, imgSrc: '../../channa-maduranga-photography-web/src/assets/2.jpg' },
-  // { id: 8, imgSrc: '../../channa-maduranga-photography-web/src/assets/1.jpg' },
-  // { id: 9, imgSrc: '../../channa-maduranga-photography-web/src/assets/10.jpg' },
 ];
 
 const RecentWork = () => {

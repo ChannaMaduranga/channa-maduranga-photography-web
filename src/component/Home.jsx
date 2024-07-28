@@ -13,6 +13,7 @@ import cover1 from '../assets/cover1.png';
 import cover2 from '../assets/1.jpg';
 import cover3 from "../assets/cover2.jpg";
 import cover4 from "../assets/00.jpg";
+import ScrollToTop from './ScrollToTop'
 // import cover5 from "../assets/dinna.jpg";
 
 
@@ -26,7 +27,9 @@ function Home() {
 
 
   return (
+    
     <div id="home" className=''>
+        <ScrollToTop/>
         <div className=' relative  md:h-[400px] w-screen  justify-center  '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <div className='mt- '>

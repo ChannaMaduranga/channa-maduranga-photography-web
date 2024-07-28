@@ -4,11 +4,11 @@ import 'react-slideshow-image/dist/styles.css';
 
 const SlideShow = ({ slideImages }) => {
   return (
-    <div className="slideshow-container h-[320px] md:h-[400px] w-screen">
+    <div className="slideshow-container h-[300px] md:h-[400px] w-screen">
       <Slide arrows={false} easing="ease" >
         {slideImages.map((slideImage, index) => (
           <div className="each-slide  " key={index}>
-            <img src={slideImage} alt={`Slide ${index}`} className="slide-image h-[320px] md:h-[400px] w-full object-cover" />
+            <img src={slideImage} alt={`Slide ${index}`} className="slide-image h-[300px] md:h-[400px] w-full object-cover" />
           </div>
         ))}
       </Slide>
