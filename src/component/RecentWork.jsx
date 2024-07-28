@@ -26,12 +26,11 @@ const recentWorks = [
   { id: 7, imgSrc: img7 },
   { id: 8, imgSrc: img8 },
   { id: 9, imgSrc: img9 },
-  { id: 10, imgSrc: img10},
-  { id: 11, imgSrc: img11},
-  { id: 12, imgSrc: img12},
-  { id: 13, imgSrc: img13},
-  { id: 14, imgSrc: img14}
-
+  { id: 10, imgSrc: img10 },
+  { id: 11, imgSrc: img11 },
+  { id: 12, imgSrc: img12 },
+  { id: 13, imgSrc: img13 },
+  { id: 14, imgSrc: img14 }
 ];
 
 const RecentWork = () => {
@@ -53,10 +52,10 @@ const RecentWork = () => {
 
   return (
     <div className="py-4 lg:p-8">
-      <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-6 lg:pb-16 " data-aos="fade-right">Recent Works</h2>
-      <div className="container mx-auto grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1 ">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 lg:pb-16" data-aos="fade-right">Recent Works</h2>
+      <div className="container   grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1">
         {recentWorks.map((work) => (
-          <div key={work.id} className="relative ">
+          <div key={work.id} className="flex justify-center items-center content-center">
             <img
               src={work.imgSrc}
               onClick={() => handleImageClick(work.imgSrc)}
@@ -73,12 +72,12 @@ const RecentWork = () => {
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
         >
           <div className="relative w-auto m-32">
-            <img src={selectedImage} className="max-w-[350px] max-h-[500px] md:max-w-[500px] md:max-h-[500px]  object-cover rounded-md" />
+            <img src={selectedImage} className="max-w-[350px] max-h-[500px] md:max-w-[500px] md:max-h-[500px] object-cover rounded-md" />
             <button
               onClick={handleClose}
               className="absolute top-2 right-2 bg-white text-black rounded-full p-2"
             >
-             <IoClose className=''/>
+              <IoClose />
             </button>
           </div>
         </div>

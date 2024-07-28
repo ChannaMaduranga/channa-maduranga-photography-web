@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import wedding from "../assets/wedding.jpg";
 import preshoot from "../assets/preshoot.jpg";
 import graduation from "../assets/graduation.jpg";
-import event from "../assets/wedding.jpg";
+import event from "../assets/event.jpg";
 
 
 // const services = [

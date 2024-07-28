@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { IoClose } from "react-icons/io5";
 import {Link } from 'react-router-dom';
 import img1 from '../assets/wedding.jpg';
 import img2 from '../assets/wedding2.jpg';
@@ -38,6 +39,21 @@ const albums = [
 
 function Album() {
 
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageClick = (images) => {
+    setSelectedImage(images);
+  };
+
+  const handleClose = () => {
+    setSelectedImage(null);
+  };
+
+  const handleOutsideClick = (e) => {
+    if (e.target.id === 'overlay') {
+      handleClose();
+    }
+  };
 
 
 
@@ -57,28 +73,28 @@ function Album() {
                       <div className='w-full h-[150px] md:h-[170px]   '>
                         <img
                           src={albums.images[0]}
-                          
+                          onClick={() => handleImageClick(albums.images[0])}
                           className="w-full h-full object-cover rounded-lg transition-transform duration-300 "
                         />
                       </div>
                       <div className='w-full h-[150px]  md:h-[170px] '>
                         <img
                           src={albums.images[1]}
-                          
+                          onClick={() => handleImageClick(albums.images[1])}
                           className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
                         />
                       </div>
                       <div className='w-full h-[150px]  md:h-[170px]'>
                       <img
                         src={albums.images[2]}
-                        
+                        onClick={() => handleImageClick(albums.images[2])}
                         className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
                       />
                       </div>
                       <div className='w-full h-[150px] md:h-[170px] overflow-hidden '>
                         <img
                           src={albums.images[3]}
-                          
+                          onClick={() => handleImageClick(albums.images[3])}
                           className="w-full h-full justify-center items-center  object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
                         />
                       </div>
@@ -95,6 +111,26 @@ function Album() {
           </div>
         ))}
         </div>
+
+        {selectedImage && (
+        <div
+          id="overlay"
+          onClick={handleOutsideClick}
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+        >
+          <div className="relative w-auto m-32">
+            <img src={selectedImage} className="max-w-[350px] max-h-[500px] md:max-w-[500px] md:max-h-[500px]  object-cover rounded-md" />
+            <button
+              onClick={handleClose}
+              className="absolute top-2 right-2 bg-white text-black rounded-full p-2"
+            >
+             <IoClose className=''/>
+            </button>
+          </div>
+        </div>
+      )}
+
+      
         <div className='flex justify-center mt-8'>
          <Link to="/Album">
           <button type="button" className='w-[135px] h-[35px] bg-white border-2 border-black rounded-lg font-semibold hover:bg-black hover:text-white hover:border-2 hover:border-white'  >View More</button>
