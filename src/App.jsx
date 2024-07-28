@@ -29,7 +29,7 @@ function App() {
 
     <BrowserRouter basename="/channa-maduranga-photography-web/">
       <Routes>
-        <Route path="/channa-maduranga-photography-web" Component={Home} />
+        <Route path="/" Component={Home} />
         <Route path="/Album" Component={MoreAlbum}/>
         
         
