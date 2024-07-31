@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "host": "https://github.com/ChannaMaduranga/channa-maduranga-photography-web",
+  "homepage": "https://github.com/ChannaMaduranga/channa-maduranga-photography-web/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
