@@ -30,7 +30,7 @@ function Home() {
     
     <div id="home" className=''>
         <ScrollToTop/>
-        <div className=' relative  md:h-[400px] w-screen  justify-center  '>
+        <div className=' relative  md:h-[400px] lg:h-[500px] w-screen  justify-center  '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <div className='mt- '>
                 <SlideShow slideImages={slideImages} className=" h-full w-full object-cover "/> 

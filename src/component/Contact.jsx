@@ -46,10 +46,10 @@ function Contact() {
   return (
     <div className='md:mt-16 mt-8 mb-8' id="contact">
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6" data-aos="fade-up">Contact Us</h2>
-      <div className='bg-black w-full h-full m-auto flex flex-col lg:flex-row justify-center items-center' data-aos="fade-up">
+      <div className='bg-[#323232] w-full h-full m-auto flex flex-col lg:flex-row md:gap-16 justify-center items-center' data-aos="fade-up">
         <div className='bg-white rounded-md mx-8 m-8' data-aos="fade-up">
           <form className='contact__form' onSubmit={sendEmail}>
-            <div className="mb-4 flex gap-4 m-8 border-b">
+            <div className="mb-4 flex gap-4  m-8 border-b">
               <FiUser />
               <input
                 type="text"
@@ -119,13 +119,13 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className='text-white md:m-8'>
+        <div className='text-white md:m- '>
           <div className='lg:m-8 m-2'>
-            <h2 className='text-lg lg:text-[40px] '>Contact</h2>
-            <p className='text-sm opacity-70 lg:text-[12px] lg:m-8'>Send your request</p>
+            <h2 className='text-lg lg:text-[60px] md:pb-8'>CONTACT</h2>
+            <p className='text-sm opacity-70 lg:text-[20px] lg:m-'>Send your request</p>
           </div>
           <div className='text-[12px] m-2 md:m-8'>
-            <p>Email: channamaduranga4@gmail.com</p>
+            <p>Email: eventbilssstudio@gmail.com</p>
             <p>Phone: 076 7450489</p>
             <div className='flex m-8 justify-center md:gap-4'>
               <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6' /></a>

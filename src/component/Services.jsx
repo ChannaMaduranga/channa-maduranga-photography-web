@@ -35,19 +35,19 @@ const Services = () => {
 
 
   return (
-    <div className="flex flex-col items-center py-8 lg:p-16" data-aos="fade-up" id="service">
+    <div className="flex flex-col items-center pt-8 lg:pt-24" data-aos="fade-up" id="service">
       <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold mb-6" >OUR SERVICES</h2>
       
-      <div className="grid grid-cols-2 gap-2 m-4 md:flex " >
+      <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[90%] justify-center" >
         {services.map((service, index) => (
-          <div key={index} className="relative h-[200px] w-[180px] group overflow-hidden " >
+          <div key={index} className="relative h-[200px] w-[180px] lg:h-[280px] lg:w-[250px] group overflow-hidden " >
             <img
               src={service.imgSrc}
               
-              className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-500 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:bg-opacity-0">
-              <span className="text-white font-semibold text-lg transition-all duration-300 group-hover:translate-y-full">
+              <span className="text-white font-semibold text-lg transition-all duration-500 group-hover:translate-y-20 md:group-hover:translate-y-24">
                 {service.name}
               </span>
             </div>
