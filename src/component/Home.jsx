@@ -9,10 +9,12 @@ import AboutMe from './AboutMe'
 import Album from './Album'
 import SlideShow from './SlideShow'
 
-import cover1 from '../assets/cover1.png';
-import cover2 from '../assets/1.jpg';
-import cover3 from "../assets/cover2.jpg";
-import cover4 from "../assets/00.jpg";
+import cover1 from '../assets/home page/cover1.jpg';
+import cover2 from '../assets/home page/1.jpg';
+import cover3 from "../assets/home page/cover2.jpg";
+import cover4 from "../assets/home page/00.jpg";
+import cover5 from "../assets/home page/IMG_6658.jpg";
+
 import ScrollToTop from './ScrollToTop'
 // import cover5 from "../assets/dinna.jpg";
 
@@ -22,7 +24,7 @@ function Home() {
 
 
     const slideImages = [
-        cover1,cover2,cover3,cover4  
+        cover1,cover2,cover5,cover3,cover4
          ];
 
 
@@ -30,12 +32,12 @@ function Home() {
     
     <div id="home" className=''>
         <ScrollToTop/>
-        <div className=' relative  md:h-[400px] lg:h-[500px] w-screen  justify-center  '>
+        <div className=' relative  md:h-[full] lg:h-screen w-screen  justify-center pt-8 lg:pt-4 '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <div className='mt- '>
                 <SlideShow slideImages={slideImages} className=" h-full w-full object-cover "/> 
             </div>
-            <div className=' absolute inset-0  bg-black opacity-25 w-screen'>
+            <div className='hidden absolute inset-0  bg-black opacity-25 w-screen lg:hidden'>
                 <div className='absolute top-[50%] left-[70%] md:top-[35%] text-white'>
                     
                     <div className='w-[80%] h-[20%]'>

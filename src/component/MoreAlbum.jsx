@@ -49,6 +49,12 @@ import E1 from '../assets/Engagment/16x24 Enlargment.jpg';
 import E2 from '../assets/Engagment/2.jpg';
 import E3 from '../assets/Engagment/9.jpg';
 import E4 from '../assets/Engagment/19.jpg';
+
+import h1 from '../assets/DSC01017.jpg';
+import h2 from '../assets/DSC01034.jpg';
+import h3 from '../assets/DSC01099.jpg';
+import h4 from '../assets/DSC011125.jpg';
+
 import ScrollToTop from './ScrollToTop';
 
 
@@ -57,6 +63,11 @@ const albums = [
     title: 'Rumesh & Oshani',
     images: [img1, img2, img3,img11],
     discription : ' "Take my hand, take my whole life too. For I can’t help falling in love with you ❤️💍"'
+  },
+  {
+    title: 'Oshani & Rumesh Homecoming ',
+    images: [h1, h2, h3,h4],
+    discription : ' " Love is that condition in which the happiness of another person is essential to your own 💙💍 "'
   },
   {
     title: 'Camiliya Live in Concert 2023 ',
