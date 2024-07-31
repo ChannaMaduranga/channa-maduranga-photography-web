@@ -51,7 +51,7 @@ const RecentWork = () => {
   };
 
   return (
-    <div className="py-4 lg:p-8 " >
+    <div className="py-4 lg:p-8 p-8" >
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6 lg:pb-16" data-aos="fade-right">Recent Works</h2>
       <div className="container   grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1" data-aos="fade-up">
         {recentWorks.map((work) => (
