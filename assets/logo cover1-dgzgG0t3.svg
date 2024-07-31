@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4000" height="4000" viewBox="0 0 4000 4000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 7.5px;
+        stroke-dasharray: 0.001 15;
+      }
+
+      .cls-2 {
+        font-size: 2083.333px;
+        font-family: Montserrat;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="2000" cy="2000" r="1985"/>
+  <text id="CM" class="cls-2" x="231.355" y="2656.232">CM</text>
+</svg>
