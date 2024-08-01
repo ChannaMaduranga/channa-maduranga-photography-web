@@ -27,7 +27,7 @@ function App() {
        <Navbar/>
     </div>
 
-    <BrowserRouter>
+    <BrowserRouter basename="/channa-maduranga-photography-web/">
       <Routes>
         <Route  path="/" Component={Home} />
     
