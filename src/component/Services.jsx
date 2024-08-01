@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <div className="flex flex-col items-center pt-8 lg:pt-24"  id="service">
-      <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold mb-6" data-aos="fade-up" >OUR SERVICES</h2>
+      <h2 className="text-2xl  md:text-3xl lg:text-5xl font-bold mb-6" data-aos="fade-up" >OUR SERVICES</h2>
       
       <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[90%] justify-center" data-aos="fade-up" >
         {services.map((service, index) => (

@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <div className='mt-8 lg:pt-16' id="aboutUs" data-aos="fade-up">
         <div>
-            <h2 className="text-2xl  md:text-3xl lg:text-4xl font-bold text-center mb-8 md:pb-16" data-aos="fade-up">About Me</h2>
+            <h2 className="text-2xl  md:text-3xl lg:text-5xl font-bold text-center mb-8 md:pb-16" data-aos="fade-up">About Me</h2>
         </div>
         <div className=' lg:flex h-auto bg-[#323232]  opacity-100 p-16  md:p-16 pt-16  ' data-aos="">
             <div className='lg:w-2/4 '>

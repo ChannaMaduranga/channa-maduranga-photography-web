@@ -45,7 +45,7 @@ function Contact() {
 
   return (
     <div className='md:mt-16 mt-8 mb-8' id="contact">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6" data-aos="fade-up">Contact Us</h2>
+      <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-6 lg:mb-12" data-aos="fade-up">Contact Us</h2>
       <div className='bg-[#323232] w-full h-full m-auto flex flex-col lg:flex-row lg:gap-4 xl:gap-16 justify-center items-center' data-aos="fade-up">
         <div className='bg-white rounded-md mx-8 m-8' data-aos="fade-up">
           <form className='contact__form' onSubmit={sendEmail}>
