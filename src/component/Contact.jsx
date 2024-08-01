@@ -8,6 +8,7 @@ import { IoSend } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa6";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
@@ -119,20 +120,21 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div className='text-white justify-center'>
+        <div className='text-white justify-center ' >
           <div className=' m-2   '>
-            <h2 className='text-lg  md:pb-8  text-[35px] md:text-[50px] text-center lg:text-[50px] mb-16 md:mb-4 lg:pb-24  '>CONTACT US</h2>
-            <p className='text-sm opacity-70 lg:text-[20px] mt-4 '>Send your request</p>
+            <h2 className='text-lg  md:pb-8  text-[35px] md:text-[50px] text-center lg:text-[50px] mb-8 md:mb-4 lg:pb-24  '>CONTACT US</h2>
+            <p className='text-sm opacity-70 lg:text-[20px]  '>Send your request</p>
           </div>
           <div className='text-[12px] m-2'>
-            <div className='flex gap-8'>
-              <p>Email: eventblissstudio@gmail.com</p>
-              <p>Phone: 076 7450489</p>
+            <div className=' md:flex gap-8'>
+              <p >Email: eventblissstudio@gmail.com</p>
+              <p >Phone: 076 7450489</p>
             </div>
             <div className='flex m-8 justify-center md:gap-4'>
               <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6' /></a>
               <a href="https://web.facebook.com/profile.php?id=100085634577383"><FaSquareFacebook size={16} className='mr-4 md:size-6' /></a>
-              <a href="https://www.youtube.com/channel/UC6PwTQhYUvM7_YxHDek3g7w"><IoLogoYoutube size={16} className='md:size-6' /></a>
+              <a href="https://www.youtube.com/channel/UC6PwTQhYUvM7_YxHDek3g7w"><IoLogoYoutube size={16} className='mr-4  md:size-6' /></a>
+              <a href="https://wa.me/message/ZQBFTQ25FYECF1"><FaWhatsapp size={16} className='md:size-6' /></a>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ function AboutMe() {
                 </div>
             </div>
             <div className='relative mt-8 lg:w-1/2 '>
-                <h6 className=' text-white font-bold text-center lg:text-left md:text-[25px] m-2 pb-4 '>I am Channa Maduranga</h6>
+                <h6 className=' text-white font-bold text-center lg:text-left md:text-[25px] m-2 pb-4 '>The man behind the lens</h6>
                 <p className='text-white  text-justify transform transition-transform duration-300 ease-in-out '> A dedicated photographer who captures the essence of life’s most cherished moments. Specializing in wedding, event, graduation etc. , I combine creativity and passion to produce images that tell your unique story. Whether it’s a special event or a personal portrait, my goal is to deliver stunning photos that you’ll treasure forever. </p>
 
                 <div className=' w-full    flex items-center justify-center mt-8 lg:justify-end '>

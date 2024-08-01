@@ -3,6 +3,8 @@ import AOS from "aos"; // for animation aos package
 import "aos/dist/aos.css";
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 
+
+
 import './App.css';
 import Navbar from '../src/component/Navbar/Navbar';
 import Home from './component/Home';
@@ -15,7 +17,7 @@ function AppContent() {
   const location = useLocation();
 
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({ duration: 2000 });
   }, []);
 
   useEffect(() => {
@@ -25,19 +27,22 @@ function AppContent() {
     }, 2000); // Simulate a loading delay
 
     return () => clearTimeout(timer);
-  }, [location]);
+  }, []);
+
+
+
 
   return loading ? (
     <Loading />
   ) : (
-    <>
+    <div className=''>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Album" element={<MoreAlbum />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

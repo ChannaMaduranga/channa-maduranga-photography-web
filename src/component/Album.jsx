@@ -65,7 +65,7 @@ function Album() {
         <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-5xl "  data-aos="fade-right">Albums</h2>
         <div className='w-[90%] lg:w-full m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-right">
           {album.map((albums,index)=>(
-          <div key = {index} className='md:left-0   md:m-4 my-8'>
+          <div key = {index} className="md:left-0   md:m-4 my-8 " data-aos="fade-up">
               <div className='w-full  '>
               <h2 className='font-semibold '>{albums.title}</h2>
                 <p className='text-[12px] my-2'>{albums.discription}</p>
@@ -131,7 +131,7 @@ function Album() {
       )}
 
       
-        <div className='flex justify-center mt-8'>
+        <div className='flex justify-center mt-8' data-aos="fade-right">
          <Link to="/Album">
           <button type="button" className='w-[135px] h-[35px] bg-white border-2 border-black rounded-lg font-semibold hover:bg-black hover:text-white hover:border-2 hover:border-white'  >View More</button>
          </Link> 
