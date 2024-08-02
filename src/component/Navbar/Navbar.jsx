@@ -50,11 +50,11 @@ function Navbar({ scrollToTarget }) {
             <a href='/channa-maduranga-photography-web'><img src={logo} alt="Logo" /></a>
           </div>
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-white focus:outline-none">
+            <button onClick={toggleMenu} className="text-white focus:outline-none pr-4 ">
               {isOpen ? <FiX size={26} /> : <FiMenu size={24} />}
             </button>
           </div>
-          <ul className={` bg-[#171717] md:flex space-x-6 absolute md:static justify-center md:justify-end pr-8 md:pr-2 transition-all md:text-white duration-300 ease-in ${isOpen ? 'top-12 left-0 w-full opacity-100 pb-8' : 'top-[-500px] w-full left-0'}`}>
+          <ul className={`bg-[#171717] md:flex space-x-6 absolute md:static justify-center md:justify-end pr-8 md:pr-2 transition-all md:text-white duration-700 ease-in-out ${isOpen ? 'top-12 left-0 w-full opacity-100 pb-8' : 'top-[-500px] w-full left-0'}`}>
           <li className="text-center  md:text-left"><a href="#home" onClick={handleLinkClick} className="block py-2 md:py-0 px-4 md:px-0 underline-animate"></a></li>
             <li className="text-center  md:text-left"><a href="#home" onClick={handleLinkClick} className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Home</a></li><hr className='m-auto' />
             <li className="text-center md:text-left"><a href="#album" onClick={handleLinkClick} className="block py-2 md:py-0 px-4 md:px-0 underline-animate">Album</a></li><hr />

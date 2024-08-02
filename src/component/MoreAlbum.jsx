@@ -45,6 +45,21 @@ import g18 from '../assets/g1/g18.jpg';
 import g19 from '../assets/g1/g19.jpg';
 import g20 from '../assets/g1/g20.jpg';
 
+import g21 from '../assets/g1/g21.jpg';
+import g22 from '../assets/g1/g22.jpg';
+import g23 from '../assets/g1/g23.jpg';
+import g24 from '../assets/g1/g24.jpg';
+
+import g25 from '../assets/g1/g25.jpg';
+import g26 from '../assets/g1/g26.jpg';
+import g27 from '../assets/g1/g27.jpg';
+import g28 from '../assets/g1/g28.jpg';
+
+import g29 from '../assets/g1/g29.jpg';
+import g30 from '../assets/g1/g30.jpg';
+import g31 from '../assets/g1/g31.jpg';
+import g32 from '../assets/g1/g32.jpg';
+
 import E1 from '../assets/Engagment/16x24 Enlargment.jpg';
 import E2 from '../assets/Engagment/2.jpg';
 import E3 from '../assets/Engagment/9.jpg';
@@ -90,6 +105,11 @@ const albums = [
     discription : ' 38th General Convocation 2024 | University of Jaffna'
   },
   {
+    title: "Jerom's Graduation Day",
+    images: [g21, g23, g22, g24],
+    discription : ' 38th General Convocation 2024 | University of Jaffna'
+  },
+  {
     title: "Nisansala's Graduation Day",
     images: [g9, g10, g11, g12],
     discription : 'Congratulations on your graduation and best wishes for your next adventure! 👩‍🎓'
@@ -113,6 +133,16 @@ const albums = [
     title: "Dilini's Graduation Day  | SLIATE",
     images: [g17, g18, g19, g20],
     discription : '18th General  Convocation  2023  | SLIATE 👩‍🎓'
+  },
+  {
+    title: "Supul's Graduation Day  | UOJ",
+    images: [g29, g31, g30, g32],
+    discription : '37th General  Convocation  2023  | University of Jaffna 👩‍🎓'
+  },
+  {
+    title: "Chamodi's Graduation Day  | UOJ",
+    images: [g25, g26, g27, g28],
+    discription : '37th General  Convocation  2023  | University of Jaffna 👩‍🎓'
   },
 
 ]
