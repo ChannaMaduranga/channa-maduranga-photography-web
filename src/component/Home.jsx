@@ -32,10 +32,10 @@ function Home() {
     
     <div id="home" className=''>
         <ScrollToTop/>
-        <div className=' relative  md:h-[full] lg:h-screen w-s w-full justify-center pt-8 lg:pt-4 '>
+        <div className=' relative  md:h-[full] xl:h-screen w-s w-full justify-center pt-8 lg:pt-4 '>
             {/* <SlideShow slideImages={slideImages}/> */}
             <div className='overflow-hidden'>
-                <SlideShow slideImages={slideImages} className=" h-full  object-  "/> 
+                <SlideShow slideImages={slideImages} className=" h-full    "/> 
             </div>
             <div className='hidden absolute inset-0  bg-black opacity-25 w-screen lg:hidden'>
                 <div className='absolute top-[50%] left-[70%] md:top-[35%] text-white'>

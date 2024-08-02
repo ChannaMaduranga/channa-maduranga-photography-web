@@ -2,10 +2,12 @@ import React, { useState,useEffect } from 'react';
 import AOS from "aos"; /* for animation  aos package*/
 import "aos/dist/aos.css";
 
+
 import wedding from "../assets/wedding.jpg";
 import preshoot from "../assets/preshoot.jpg";
 import graduation from "../assets/graduation.jpg";
 import event from "../assets/event.jpg";
+import { Link } from 'react-router-dom';
 
 
 // const services = [
@@ -35,12 +37,13 @@ const Services = () => {
 
 
   return (
-    <div className="flex flex-col items-center pt-8 lg:pt-24"  id="service">
+    <div className="flex flex-col items-center justify-center m-auto pt-8 lg:pt-24 md:w-[90%]"  id="service">
       <h2 className="text-2xl  md:text-3xl lg:text-5xl font-bold mb-6" data-aos="fade-in" >OUR SERVICES</h2>
       
-      <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[90%] justify-center" data-aos="fade-up" >
+      <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[]  justify-center" data-aos="fade-up" >
         {services.map((service, index) => (
-          <div key={index} className="relative h-[200px] w-[180px] lg:h-[280px] lg:w-[250px] group overflow-hidden " >
+          
+          <Link to="/Album" ><div key={index} className="relative h-[200px] w-[180px] lg:h-[280px] lg:w-[250px] group overflow-hidden " >
             <img
               src={service.imgSrc}
               
@@ -51,7 +54,9 @@ const Services = () => {
                 {service.name}
               </span>
             </div>
+            
           </div>
+          </Link>
         ))}
       </div>
     </div>
