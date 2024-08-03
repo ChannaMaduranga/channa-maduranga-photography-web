@@ -22,6 +22,8 @@ function Navbar({ scrollToTarget }) {
       setIsOpen(false);
     } else {
       navigate('/', { state: { id: targetId } });
+     
+      
     }
   };
 

@@ -15,6 +15,7 @@ import Wedding from './component/Wedding';
 import Preshoot from './component/Preshoot';
 import Graduation from './component/Graduation';
 import Event from './component/Event';
+import ScrollToTop from './component/ScrollToTop';
 
 function AppContent() {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ function AppContent() {
     <Loading />
   ) : (
     <div className=''>
+       <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

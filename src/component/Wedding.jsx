@@ -61,9 +61,9 @@ const Wedding = () => {
 
 
   return (
-    <div className="py-4 lg:p-8 p-8 lg:pt-16 md:w-[80%] m-auto">
-    <h2 className="text-2xl pb-8 font-bold text-left pt-24 md:pt-16 md:3xl lg:text-4xl  md:pb-8"  >Wedding</h2>
-    <div className="container   grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1 lg:gap-4" data-aos="fade-up">
+    <div className="py-4 lg:p-8 p-1 lg:pt-16 md:w-[80%] m-auto">
+    <h2 className="text-2xl p-4 pb-8 font-bold text-left pt-24 md:pt-16 md:3xl lg:text-4xl  md:pb-8"  >Wedding</h2>
+    <div className="container   grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-7 gap-1 lg:gap-4" data-aos="fade-up">
       {weddings.map((work) => (
         <div key={work.id} className="flex justify-center items-center content-center">
           <img

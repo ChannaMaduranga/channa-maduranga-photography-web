@@ -131,7 +131,7 @@ function Contact() {
               <p >Phone: 076 7450489</p>
             </div>
             <div className='flex m-8 justify-center md:gap-4'>
-              <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6' /></a>
+              <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6 group-hover:scale-110' /></a>
               <a href="https://web.facebook.com/profile.php?id=100085634577383"><FaSquareFacebook size={16} className='mr-4 md:size-6' /></a>
               <a href="https://www.youtube.com/channel/UC6PwTQhYUvM7_YxHDek3g7w"><IoLogoYoutube size={16} className='mr-4  md:size-6' /></a>
               <a href="https://wa.me/message/ZQBFTQ25FYECF1"><FaWhatsapp size={16} className='md:size-6' /></a>
