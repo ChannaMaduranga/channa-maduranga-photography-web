@@ -11,6 +11,10 @@ import Home from './component/Home';
 import Footer from './component/Footer';
 import MoreAlbum from './component/MoreAlbum';
 import Loading from './component/Loading';
+import Wedding from './component/Wedding';
+import Preshoot from './component/Preshoot';
+import Graduation from './component/Graduation';
+import Event from './component/Event';
 
 function AppContent() {
   const [loading, setLoading] = useState(true);
@@ -40,6 +44,10 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Album" element={<MoreAlbum />} />
+        <Route path="/Wedding" element={<Wedding />} />
+        <Route path="/Preshoot" element={<Preshoot />} />
+        <Route path="/Graduation" element={<Graduation/>} />
+        <Route path="/Event" element={<Event/>} />
       </Routes>
       <Footer />
     </div>
