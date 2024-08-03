@@ -19,10 +19,10 @@ import { Link } from 'react-router-dom';
 
 
 const services = [
-  { name: 'WEDDINGS', imgSrc: wedding },
-  { name: 'PRE SHOOT', imgSrc: preshoot },
-  { name: 'GRADUATION', imgSrc: graduation },
-  { name: 'EVENTS', imgSrc: event },
+  { name: 'WEDDINGS', imgSrc: wedding , link:"/Wedding" },
+  { name: 'PRE SHOOT', imgSrc: preshoot, link:"/Preshoot" },
+  { name: 'GRADUATION', imgSrc: graduation , link:"/Graduation" },
+  { name: 'EVENTS', imgSrc: event , link:"/Event" },
 ];
 
 
@@ -43,7 +43,7 @@ const Services = () => {
       <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[]  justify-center" data-aos="fade-up" >
         {services.map((service, index) => (
           
-          <Link to="/Album" ><div key={index} className="relative h-[200px] w-[180px] lg:h-[280px] lg:w-[250px] group overflow-hidden " >
+          <Link to={service.link} ><div key={index} className="relative h-[200px] w-[180px] lg:h-[280px] lg:w-[250px] group overflow-hidden " >
             <img
               src={service.imgSrc}
               
