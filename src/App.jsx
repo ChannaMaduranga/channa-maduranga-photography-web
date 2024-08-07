@@ -58,7 +58,7 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter basename="/channa-maduranga-photography-web/">
+    <BrowserRouter >
       <AppContent />
     </BrowserRouter>
   );
