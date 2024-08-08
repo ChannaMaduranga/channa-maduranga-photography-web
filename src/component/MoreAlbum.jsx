@@ -183,7 +183,7 @@ function MoreAlbum() {
           <div key = {index} className='md:left-0   md:m-4 my-8'>
               <div className='w-full  '>
               <h2 className='font-semibold '>{albums.title}</h2>
-                <p className='text-[12px] my-2'>{albums.discription}</p>
+                <p className='text-[12px] my-2 h-8'>{albums.discription}</p>
                 <div className='w-full h-[50%] relative grid grid-cols-2 gap-1 '>
                       <div className='w-full h-[150px] md:h-[170px]   '>
                         <img
