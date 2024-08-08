@@ -63,5 +63,6 @@ function App() {
     </BrowserRouter>
   );
 }
-
+// for use local host
+// basename='/channa-maduranga-photography-web/'  
 export default App;

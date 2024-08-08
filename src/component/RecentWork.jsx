@@ -72,7 +72,7 @@ const RecentWork = () => {
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
         >
           <div className="relative w-auto m-32">
-            <img src={selectedImage} className="max-w-[350px] max-h-[500px] md:max-w-[500px] md:max-h-[500px] object-cover rounded-md" />
+            <img src={selectedImage} className="max-w-[350px] max-h-[500px] md:max-w-[600px] md:max-h-[500px] lg:max-w-[700px] lg:max-h-[600px] object-cover rounded-md" />
             <button
               onClick={handleClose}
               className="absolute top-2 right-2 bg-white text-black rounded-full p-2"
