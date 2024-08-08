@@ -1,0 +1,49 @@
+/* SocialButtons.css */
+
+.tooltip {
+    @apply absolute top-0 bg-white text-white p-2.5 text-lg font-medium rounded-2xl opacity-0 pointer-events-none shadow-lg transition-all duration-300 ease-in-out;
+  }
+  
+  .tooltip::before {
+    content: '';
+    @apply absolute bg-white h-3.5 w-4 left-1/2 bottom-[-6px] transform -translate-x-1/2 rotate-45 transition-all duration-300 ease-in-out;
+  }
+  
+  .icon:hover .tooltip {
+    @apply top-[-70px] opacity-100 pointer-events-auto;
+  }
+  
+  .icon:hover .tooltip::before {
+    @apply bg-white;
+  }
+  
+  .facebook:hover .tooltip,
+  .facebook:hover .tooltip::before {
+    @apply bg-[#fcfcfc];
+  }
+  
+  .twitter:hover .tooltip,
+  .twitter:hover .tooltip::before {
+    @apply bg-[#46C1F6];
+  }
+  
+  .instagram:hover .tooltip,
+  .instagram:hover .tooltip::before {
+    @apply bg-[#e1306c];
+  }
+  
+  .github:hover .tooltip,
+  .github:hover .tooltip::before {
+    @apply bg-[#333];
+  }
+  
+  .youtube:hover .tooltip,
+  .youtube:hover .tooltip::before {
+    @apply bg-[#DE463B];
+  }
+  
+  .whatsapp:hover .tooltip,
+  .whatsapp:hover .tooltip::before {
+    @apply bg-[#25D366];
+  }
+  

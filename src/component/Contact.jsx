@@ -10,6 +10,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
 import emailjs from '@emailjs/browser';
+import './SocialButtons.css'; // Import the custom CSS for tooltips
 
 function Contact() {
   const [contactForm, setContactForm] = useState({
@@ -130,11 +131,38 @@ function Contact() {
               <p >Email: eventblissstudio@gmail.com</p>
               <p >Phone: 076 7450489</p>
             </div>
-            <div className='flex m-8 justify-center md:gap-4'>
-              <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6 group-hover:scale-110' /></a>
-              <a href="https://web.facebook.com/profile.php?id=100085634577383"><FaSquareFacebook size={16} className='mr-4 md:size-6' /></a>
+            <div className='flex m-8 lg:mt-16 justify-center gap-4 md:gap-8'>
+                <div className='icon facebook flex flex-col items-center justify-center relative cursor-pointer transition-all duration-400 ease-in-out'>
+                  <div className='tooltip text-black text-sm'>Facebook</div>
+                  <span className='flex items-center justify-center h-15 w-15  rounded-full shadow-lg transition-all duration-400 ease-in-out'>
+                    <a href="https://web.facebook.com/profile.php?id=100085634577383"><FaSquareFacebook size={16} className=' md:size-6' /></a>
+                  </span>
+                </div>
+
+                <div className='icon facebook flex flex-col items-center justify-center relative cursor-pointer transition-all duration-400 ease-in-out'>
+                  <div className='tooltip text-black text-sm'>Insagram</div>
+                  <span className='flex items-center justify-center h-15 w-15  rounded-full shadow-lg transition-all duration-400 ease-in-out'>
+                  <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className=' md:size-6 group-hover:scale-110' /></a>
+                  </span>
+                </div>
+
+                <div className='icon facebook flex flex-col items-center justify-center relative cursor-pointer transition-all duration-400 ease-in-out'>
+                  <div className='tooltip text-black text-sm'>YouTube</div>
+                  <span className='flex items-center justify-center h-15 w-15  rounded-full shadow-lg transition-all duration-400 ease-in-out'>
+                  <a href="https://www.youtube.com/channel/UC6PwTQhYUvM7_YxHDek3g7w"><IoLogoYoutube size={16} className=' md:size-6' /></a>
+                  </span>
+                </div>
+
+                <div className='icon facebook flex flex-col items-center justify-center relative cursor-pointer transition-all duration-400 ease-in-out'>
+                  <div className='tooltip text-black text-sm'>WhatsApp</div>
+                  <span className='flex items-center justify-center h-15 w-15  rounded-full shadow-lg transition-all duration-400 ease-in-out'>
+                  <a href="https://wa.me/message/ZQBFTQ25FYECF1"><FaWhatsapp size={16} className='md:size-6' /></a>
+                  </span>
+                </div>
+              {/* <a href="https://www.instagram.com/channa_maduranga_photography/"><FaInstagram size={16} className='mr-4 md:size-6 group-hover:scale-110' /></a> */}
+              {/* <a href="https://web.facebook.com/profile.php?id=100085634577383"><FaSquareFacebook size={16} className='mr-4 md:size-6' /></a>
               <a href="https://www.youtube.com/channel/UC6PwTQhYUvM7_YxHDek3g7w"><IoLogoYoutube size={16} className='mr-4  md:size-6' /></a>
-              <a href="https://wa.me/message/ZQBFTQ25FYECF1"><FaWhatsapp size={16} className='md:size-6' /></a>
+              <a href="https://wa.me/message/ZQBFTQ25FYECF1"><FaWhatsapp size={16} className='md:size-6' /></a> */}
             </div>
           </div>
         </div>

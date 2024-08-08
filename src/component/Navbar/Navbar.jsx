@@ -49,7 +49,7 @@ function Navbar({ scrollToTarget }) {
       <nav ref={navRef} className="bg-[#171717] text-white py-4 md:py-0 z-50 w-full fixed">
         <div className="flex lg:w-[80%] m-auto justify-between items-center px-2">
           <div className="w-[18%] h-[2%] sm:w-[12%] lg:w-[12%]">
-            <a href='/channa-maduranga-photography-web'><img src={logo} alt="Logo" /></a>
+            <a href='/'><img src={logo} alt="Logo" /></a>
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-white focus:outline-none pr-4 ">
