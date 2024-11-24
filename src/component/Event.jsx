@@ -10,7 +10,7 @@ import img6 from '../../src/assets/event/6.jpg';
 import img7 from '../../src/assets/event/7.jpg';
 import img8 from '../../src/assets/event/8.jpg';
 import img9 from '../../src/assets/event/9.jpg';
-import img10 from '../../src/assets/event/10.jpg';
+import img10 from '../../src/assets/event/recent/9.jpg';
 import img11 from '../../src/assets/event/11.jpg';
 import img12 from '../../src/assets/event/12.jpg';
 import img13 from '../../src/assets/event/13.jpg';
@@ -27,6 +27,23 @@ import img23 from '../../src/assets/event/23.jpg';
 import img24 from '../../src/assets/event/24.jpg';
 import img25 from '../../src/assets/event/25.jpg';
 import img26 from '../../src/assets/event/26.jpg';
+import img27 from '../../src/assets/event/recent/11.jpg';
+import img28 from '../../src/assets/event/recent/12.jpg';
+import img29 from '../../src/assets/event/recent/4.jpg';
+import img30 from '../../src/assets/event/recent/5.jpg';
+import img31 from '../../src/assets/event/recent/13.jpg';
+import img32 from '../../src/assets/event/recent/14.jpg';
+import img33 from '../../src/assets/event/recent/7.jpg';
+import img35 from '../../src/assets/event/recent/000.jpg';
+import img36 from '../../src/assets/event/recent/IMG_6909.jpg';
+import img37 from '../../src/assets/event/recent/IMG_6772.jpg';
+import img38 from '../../src/assets/event/recent/35.jpg';
+import img39 from '../../src/assets/event/recent/IMG_6132.jpg';
+import img40 from '../../src/assets/event/recent/29.jpg';
+import img41 from '../../src/assets/event/recent/IMG_7492.jpg';
+import img42 from '../../src/assets/event/recent/01.jpg';
+import img43 from '../../src/assets/event/recent/12.jpg';
+
 
 const events = [
   { id: 1, imgSrc: img1 },
@@ -55,6 +72,23 @@ const events = [
   { id: 24, imgSrc: img24 },
   { id: 25, imgSrc: img25 },
   { id: 26, imgSrc: img26 },
+  { id: 27, imgSrc: img27 },
+  { id: 28, imgSrc: img28 },
+  { id: 29, imgSrc: img29 },
+  { id: 30, imgSrc: img30 },
+  { id: 31, imgSrc: img31 },
+  { id: 32, imgSrc: img32 },
+  { id: 33, imgSrc: img33 },
+  { id: 35, imgSrc: img35 },
+  { id: 36, imgSrc: img36 },
+  { id: 37, imgSrc: img37 },
+  { id: 38, imgSrc: img38 },
+  { id: 39, imgSrc: img39 },
+  { id: 40, imgSrc: img40 },
+  { id: 41, imgSrc: img41 },
+  { id: 42, imgSrc: img42 },
+  { id: 43, imgSrc: img43 },
+
 
 
 ];

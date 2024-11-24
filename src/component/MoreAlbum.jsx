@@ -70,10 +70,31 @@ import h2 from '../assets/DSC01034.jpg';
 import h3 from '../assets/DSC01099.jpg';
 import h4 from '../assets/DSC011125.jpg';
 
+import e5 from '../assets/event/recent/12.jpg';
+import e6 from '../assets/event/recent/4.jpg';
+import e7 from '../assets/event/recent/2.jpg';
+import e8 from '../assets/event/recent/14.jpg';
+
+import e9 from '../assets/event/recent/00.jpg';
+import e10 from '../assets/event/recent/5.jpg';
+import e11 from '../assets/event/recent/6.jpg';
+import e12 from '../assets/event/recent/10.jpg';
+
+
 import ScrollToTop from './ScrollToTop';
 
 
 const albums = [
+  {
+    title: 'Batch Photo Day 2024',
+    images: [e5, e6, e7,e8],
+    discription : ' "University of Jaffna | Faculty of Science"'
+  },
+  {
+    title: 'Camellia 2024 Live in Concert with Yaka Crew',
+    images: [e9, e10, e11,e12],
+    discription : ' ""Organized by Faculty of Science | University of Jaffna" "'
+  },
   {
     title: 'Rumesh & Oshani',
     images: [img1, img2, img3,img11],

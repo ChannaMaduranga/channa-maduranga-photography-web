@@ -3,11 +3,11 @@ import { IoClose } from "react-icons/io5";
 
 import img1 from '../../src/assets/wedding.jpg';
 import img2 from '../../src/assets/event.jpg';
-import img3 from '../../src/assets/1.jpg';
+import img3 from '../../src/assets/event/IMG_8020.jpg';
 import img4 from '../../src/assets/7.jpg';
 import img5 from '../../src/assets/8.jpg';
 import img6 from '../../src/assets/00.jpg';
-import img7 from '../../src/assets/2.jpg';
+import img7 from '../../src/assets/event/00.jpg';
 import img8 from '../../src/assets/1.jpg';
 import img9 from '../../src/assets/10.jpg';
 import img10 from '../../src/assets/DSC01017.jpg';
@@ -15,6 +15,14 @@ import img11 from '../../src/assets/27.jpg';
 import img12 from '../../src/assets/IMG_0430.jpg';
 import img13 from '../../src/assets/15.jpg';
 import img14 from '../../src/assets/18.jpg';
+import img15 from '../../src/assets/event/recent/11.jpg';
+import img16 from '../../src/assets/event/recent/12.jpg';
+import img17 from '../../src/assets/event/recent/4.jpg';
+import img18 from '../../src/assets/event/recent/5.jpg';
+import img19 from '../../src/assets/event/recent/13.jpg';
+import img20 from '../../src/assets/event/recent/14.jpg';
+import img21 from '../../src/assets/event/recent/7.jpg';
+
 
 const recentWorks = [
   { id: 1, imgSrc: img1 },
@@ -30,7 +38,14 @@ const recentWorks = [
   { id: 11, imgSrc: img11 },
   { id: 12, imgSrc: img12 },
   { id: 13, imgSrc: img13 },
-  { id: 14, imgSrc: img14 }
+  { id: 14, imgSrc: img14 },
+  { id: 15, imgSrc: img15 },
+  { id: 16, imgSrc: img16 },
+  { id: 17, imgSrc: img17 },
+  { id: 18, imgSrc: img18 },
+  { id: 19, imgSrc: img19 },
+  { id: 20, imgSrc: img20 },
+  { id: 21, imgSrc: img21 },
 ];
 
 const RecentWork = () => {

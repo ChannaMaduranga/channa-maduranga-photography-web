@@ -53,8 +53,9 @@ function Home() {
         <div className='md:w-[80%] md:justify-center md:items-center md:m-auto bg-white'>
             <Services/>
             <RecentWork/>
-            <AboutMe />
+            
             <Album/>
+            <AboutMe />
             <Contact/>
         </div>
 
