@@ -41,8 +41,16 @@ import img38 from '../../src/assets/event/recent/35.jpg';
 import img39 from '../../src/assets/event/recent/IMG_6132.jpg';
 import img40 from '../../src/assets/event/recent/29.jpg';
 import img41 from '../../src/assets/event/recent/IMG_7492.jpg';
-import img42 from '../../src/assets/event/recent/01.jpg';
-import img43 from '../../src/assets/event/recent/12.jpg';
+import img42 from '../../src/assets/event/recent/24.jpg';
+import img44 from '../../src/assets/event/recent/00.jpg';
+import img45 from '../../src/assets/event/recent/IMG_8316.jpg';
+import img46 from '../../src/assets/event/recent/0.jpg';
+import img47 from '../../src/assets/event/recent/IMG_6647.jpg';
+import img48 from '../../src/assets/event/recent/IMG_6282.jpg';
+import img49 from '../../src/assets/event/recent/IMG_8089.jpg';
+import img50 from '../../src/assets/event/recent/IMG_8301.jpg';
+import img51 from '../../src/assets/event/recent/IMG_8150.jpg';
+
 
 
 const events = [
@@ -87,7 +95,14 @@ const events = [
   { id: 40, imgSrc: img40 },
   { id: 41, imgSrc: img41 },
   { id: 42, imgSrc: img42 },
-  { id: 43, imgSrc: img43 },
+  { id: 44, imgSrc: img44 },
+  { id: 45, imgSrc: img45 },
+  { id: 46, imgSrc: img46 },
+  { id: 47, imgSrc: img47 },
+  { id: 48, imgSrc: img48 },
+  { id: 49, imgSrc: img49 },
+  { id: 50, imgSrc: img50 },
+  { id: 51, imgSrc: img51 },
 
 
 
