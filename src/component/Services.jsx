@@ -38,7 +38,8 @@ const Services = () => {
 
   return (
     <div className="flex flex-col items-center justify-center m-auto pt-8 lg:pt-24 md:w-[90%]"  id="service">
-      <h2 className="text-2xl  md:text-3xl lg:text-5xl font-bold mb-6" data-aos="fade-in" >OUR SERVICES</h2>
+      <h2 className="text-2xl  md:text-3xl lg:text-5xl font-bold lg:mb-6" data-aos="fade-in" >OUR SERVICES</h2>
+      <p className='md:px-32 font-outfit text-[10px] md:text-sm xl:text-base p-4 pb-6 px-8 xl:px-64 xl:pb-16 text-center text-gray-500' data-aos="fade-up">We offer a range of professional photography services, including wedding photography to capture your special day, graduation portraits to celebrate achievements, and event photography to preserve life’s most memorable moments. Let us turn your occasions into timeless memories.</p>
       
       <div className="grid grid-cols-2 gap-2 lg:gap-16 m-4 md:flex md:w-[]  justify-center" data-aos="fade-up" >
         {services.map((service, index) => (

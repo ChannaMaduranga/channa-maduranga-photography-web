@@ -198,7 +198,7 @@ function MoreAlbum() {
   return (
     <div id="album" className='lg:pt-16 z-50'>
       <ScrollToTop/>
-        <h2 className="text-2xl font-bold text-left pt-24 md:pt-16 md:3xl lg:text-4xl pl-[10%] md:pl-[11%] md:pb-8"  >Albums</h2>
+        <h2 className="text-2xl font-bold text-left pt-24 md:pt-16 md:3xl lg:text-4xl pl-[10%] md:pl-[11%] md:pb-8"  >Our Albums</h2>
         <div className='w-[80%] m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-right">
           {album.map((albums,index)=>(
           <div key = {index} className='md:left-0   md:m-4 my-8'>

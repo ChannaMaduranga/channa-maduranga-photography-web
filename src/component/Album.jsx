@@ -62,7 +62,9 @@ function Album() {
 
   return (
     <div id="album" className='lg:pt-16'>
-        <h2 className="text-2xl font-bold text-center m-8 md:3xl lg:text-5xl "  data-aos="fade-right">Albums</h2>
+        <h2 className="text-2xl font-bold text-center p-4 md:text-3xl lg:text-5xl "  data-aos="fade-up">Albums</h2>
+      <p className='md:px-32 font-outfit text-[10px] md:text-sm xl:text-base  px-8 xl:px-64 md:pb-6 xl:pb-16 lg:p-4 text-center text-gray-500' data-aos="fade-up">Explore a selection of our recent albums, filled with timeless memories from weddings, graduations, and special events. Let these highlights inspire your next story with us.</p>
+        
         <div className='w-[90%] lg:w-full m-auto sm:grid sm:grid-cols-2 sm:gap-8 md:grid md:gap-0 md:grid-cols-2 lg:grid-cols-3' data-aos="fade-up">
           {album.map((albums,index)=>(
           <div key = {index} className="md:left-0   md:m-4 my-8 " data-aos="fade-up">
