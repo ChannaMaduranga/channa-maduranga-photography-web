@@ -128,7 +128,7 @@ function Contact() {
           </div>
           <div className='text-[12px] m-2'>
             <div className=' md:flex gap-8'>
-              <p >Email: eventblissstudio@gmail.com</p>
+              <p >Email: channamaduranga4@gmail.com</p>
               <p >Phone: 076 7450489</p>
             </div>
             <div className='flex m-8 lg:mt-16 justify-center gap-4 md:gap-8'>
