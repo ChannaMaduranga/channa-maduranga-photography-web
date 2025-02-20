@@ -27,7 +27,7 @@ function Contact() {
     e.preventDefault();
 
     try {
-      await emailjs.sendForm('service_d1jtp68', 'template_th3m56m', e.target, 'fYKSFV6eZ5J98ecpN');
+      await emailjs.sendForm('service_d1jtp68', 'template_th3m56m', e.target, 'FPOEMjykKOhgOsegk');
       setContactForm({
         name: "",
         email: "",
