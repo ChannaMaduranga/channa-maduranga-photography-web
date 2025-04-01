@@ -80,11 +80,43 @@ import e10 from '../assets/event/recent/5.jpg';
 import e11 from '../assets/event/recent/6.jpg';
 import e12 from '../assets/event/recent/10.jpg';
 
+import j1 from '../assets/g1/j1.jpg';
+import j2 from '../assets/g1/j2.jpg';
+import j3 from '../assets/g1/j3.jpg';
+import j4 from '../assets/g1/j4.jpg';
+
+import k1 from '../assets/g1/k1.jpg';
+import k2 from '../assets/g1/k2.jpg';
+import k3 from '../assets/g1/k3.jpg';
+import k4 from '../assets/g1/k4.jpg';
+
+import b1 from '../assets/baby/2.jpg';
+import b2 from '../assets/baby/5.jpg';
+import b3 from '../assets/baby/4.jpg';
+import b4 from '../assets/baby/3.jpg';
+
+
+
 
 import ScrollToTop from './ScrollToTop';
 
 
 const albums = [
+  {
+    title: "Baby ANYA",
+    images: [b1,b2,b3,b4],
+    discription : ' "Little hands, chubby cheeks, and a heart-stealing smile!"'
+  },
+  {
+    title: "Piumi's Grad Day",
+    images: [j1,j2,j3,j4],
+    discription : ' "39th Convocation | University of Jaffna "'
+  },
+  {
+    title: "Mathumitha's Grad Day",
+    images: [k1,k2,k3,k4],
+    discription : ' "39th Convocation | University of Jaffna "'
+  },
   {
     title: 'Batch Photo Day 2024',
     images: [e5, e6, e7,e8],

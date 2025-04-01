@@ -22,23 +22,25 @@ import img18 from '../../src/assets/event/recent/5.jpg';
 import img19 from '../../src/assets/event/recent/13.jpg';
 import img20 from '../../src/assets/event/recent/14.jpg';
 import img21 from '../../src/assets/event/recent/7.jpg';
+import b1 from '../assets/baby/3.jpg';
+import b2 from '../assets/baby/5.jpg';
 
 
 const recentWorks = [
   { id: 1, imgSrc: img1 },
   { id: 2, imgSrc: img2 },
   { id: 3, imgSrc: img3 },
-  { id: 4, imgSrc: img4 },
+  { id: 4, imgSrc: b2 },
   { id: 5, imgSrc: img5 },
   { id: 6, imgSrc: img6 },
   { id: 7, imgSrc: img7 },
-  { id: 8, imgSrc: img8 },
+  { id: 8, imgSrc: b1 },
   { id: 9, imgSrc: img9 },
   { id: 10, imgSrc: img10 },
   { id: 11, imgSrc: img11 },
   { id: 12, imgSrc: img12 },
   { id: 13, imgSrc: img13 },
-  { id: 14, imgSrc: img14 },
+  { id: 14, imgSrc: img4 },
   { id: 15, imgSrc: img15 },
   { id: 16, imgSrc: img16 },
   { id: 17, imgSrc: img17 },
