@@ -71,7 +71,7 @@ const RecentWork = () => {
     <div className="py-4 lg:p-8 p-2 lg:pt-16" >
       <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center xl:pb-8 " data-aos="fade-up">Recent Works</h2>
       <p className='md:px-32 font-outfit text-[10px] md:text-sm xl:text-base p-4 pb-8 px-8 xl:px-64 xl:pb-16 text-center text-gray-500' data-aos="fade-up">Discover our latest photography highlights, featuring unforgettable events, dreamy weddings, heartfelt portraits, and more. Each project showcases our dedication to capturing moments that last a lifetime.</p>
-      <div className="container   grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1 lg:gap-4" data-aos="fade-up">
+      <div className="container mx-auto  grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-1 lg:gap-4" data-aos="fade-up">
         {recentWorks.map((work) => (
           <div key={work.id} className="flex justify-center items-center content-center">
             <img
