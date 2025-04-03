@@ -21,8 +21,5 @@ export default defineConfig({
   esbuild: {
     minify: true,
   },
-  buildEnd: () => {
-    fs.copyFileSync('dist/index.html', 'dist/404.html');
-  },
-  
+ 
 })
