@@ -12,14 +12,5 @@ export default defineConfig({
       '@fortawesome/fontawesome-free': 'node_modules/@fortawesome/fontawesome-free'
     }
   },
-  build: {
-    outDir: 'dist',
-  },
-  server: {
-    historyApiFallback: true, // Ensure fallback to index.html
-  },
-  esbuild: {
-    minify: true,
-  },
- 
+
 })
