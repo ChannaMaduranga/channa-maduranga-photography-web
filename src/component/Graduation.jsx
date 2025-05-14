@@ -47,6 +47,16 @@ import g36 from '../assets/g1/g35.jpg';
 import g37 from '../assets/g1/g36.jpg';
 import g38 from '../assets/g1/g37.jpg';
 import g39 from '../assets/g1/g38.jpg';
+import g40 from '../assets/g1/j1.jpg';
+import g41 from '../assets/g1/j2.jpg';
+import g42 from '../assets/g1/j3.jpg';
+import g43 from '../assets/g1/j4.jpg';
+import g44 from '../assets/g1/k1.jpg';
+import g45 from '../assets/g1/k2.jpg';
+import g46 from '../assets/g1/k3.jpg';
+import g47 from '../assets/g1/k4.jpg';
+
+
 
 
 const graduations = [
@@ -89,6 +99,14 @@ const graduations = [
   { id: 37, imgSrc: g37 },
   { id: 38, imgSrc: g38 },
   { id: 39, imgSrc: g39 },
+  { id: 40, imgSrc: g40 },
+  { id: 41, imgSrc: g41 },
+  { id: 42, imgSrc: g42 },
+  { id: 43, imgSrc: g43 },
+  { id: 44, imgSrc: g44 },
+  { id: 45, imgSrc: g45 },
+  { id: 46, imgSrc: g46 },
+  { id: 46, imgSrc: g47 },
 
   
 

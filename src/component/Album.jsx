@@ -8,10 +8,10 @@ import img4 from '../assets/2.jpg';
 import img5 from '../assets/7.jpg';
 import img6 from '../assets/event.jpg';
 import img12 from '../assets/00.jpg';
-import img8 from '../assets/0.jpg';
-import img9 from '../assets/15.jpg';
-import img7 from '../assets/18.jpg';
-import img10 from '../assets/22.jpg';
+import img8 from '../assets/Engagment/16x24 Enlargment.jpg';
+import img9 from '../assets/Engagment/19.jpg';
+import img7 from '../assets/Engagment/2.jpg';
+import img10 from '../assets/Engagment/9.jpg';
 import img11 from '../assets/wedding4.jpg';
 
 
@@ -28,7 +28,7 @@ const albums = [
     discription : ' "Organize by Faculty of Science | University of Jaffna"'
   },
   {
-    title: 'Oshani & Rumesh Preshoot',
+    title: 'Savinda & Udara Engagement',
     images: [img8, img9, img10, img7],
     discription : ' “Love is like the wind, you can’t see it but you can feel it 💙💍” '
   }

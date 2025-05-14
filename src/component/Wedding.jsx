@@ -18,6 +18,17 @@ import img14 from '../../src/assets/wedding/14.jpg';
 import img15 from '../../src/assets/wedding/15.jpg';
 import img16 from '../../src/assets/wedding/16.jpg';
 import img17 from '../../src/assets/wedding/17.jpg';
+import img18 from '../assets/Engagment/000.jpg';
+import img19 from '../assets/Engagment/2.jpg';
+import img20 from '../assets/Engagment/8.jpg';
+import img21 from '../assets/Engagment/11.jpg';
+import img22 from '../assets/Engagment/14.jpg';
+import img23 from '../assets/Engagment/19.jpg';
+import img24 from '../assets/Engagment/5.jpg';
+import img25 from '../assets/Engagment/10.jpg';
+import img26 from '../assets/Engagment/13.jpg';
+import img27 from '../assets/Engagment/18.jpg';
+import img28 from '../assets/Engagment/20.jpg';
 
 const weddings = [
   { id: 1, imgSrc: img1 },
@@ -37,7 +48,18 @@ const weddings = [
   { id: 15, imgSrc: img15 },
   { id: 16, imgSrc: img16 },
   { id: 17, imgSrc: img17 },
-
+  { id: 18, imgSrc: img18 },
+  { id: 19, imgSrc: img19 },
+  { id: 20, imgSrc: img20 },
+  { id: 21, imgSrc: img21 },
+  { id: 22, imgSrc: img22 },
+  { id: 23, imgSrc: img23 },
+  { id: 24, imgSrc: img24 },
+  { id: 25, imgSrc: img25 },
+  { id: 26, imgSrc: img26 },
+  { id: 27, imgSrc: img27 },
+  { id: 28, imgSrc: img28 },
+ 
 ];
 
 const Wedding = () => {
