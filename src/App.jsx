@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import AOS from "aos"; // for animation aos package
 import "aos/dist/aos.css";
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
 
 
@@ -20,6 +20,16 @@ import ScrollToTop from './component/ScrollToTop';
 function AppContent() {
   const [loading, setLoading] = useState(true);
   const location = useLocation();
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get("redirect");
+    if (redirect) {
+      navigate(redirect, { replace: true });
+    }
+  }, []);
 
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -41,15 +51,15 @@ function AppContent() {
     <Loading />
   ) : (
     <div className=''>
-       <ScrollToTop/>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Album" element={<MoreAlbum />} />
         <Route path="/Wedding" element={<Wedding />} />
         <Route path="/Preshoot" element={<Preshoot />} />
-        <Route path="/Graduation" element={<Graduation/>} />
-        <Route path="/Event" element={<Event/>} />
+        <Route path="/Graduation" element={<Graduation />} />
+        <Route path="/Event" element={<Event />} />
       </Routes>
       <Footer />
     </div>
