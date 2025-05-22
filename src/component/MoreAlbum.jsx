@@ -102,6 +102,11 @@ import ScrollToTop from './ScrollToTop';
 
 
 const albums = [
+   {
+    title: "Savinda & Udara Engagement Day",
+    images: [E1, E2, E3, E4],
+    discription : '"Two souls with but a single thought, two hearts that beat as one."🍂'
+  },
   {
     title: "Baby ANYA",
     images: [b1,b2,b3,b4],
@@ -172,11 +177,7 @@ const albums = [
     images: [g13, g15, g14, g16],
     discription : 'Congratulations on your graduation and best wishes for your next adventure! 👩‍🎓'
   },
-  {
-    title: "Savinda & Udara Engagement Day",
-    images: [E1, E2, E3, E4],
-    discription : '"Two souls with but a single thought, two hearts that beat as one."🍂'
-  },
+ 
   {
     title: "Sahurdha Pranama 2024 | Going Down Party",
     images: [p1, p2, p3, p4],
